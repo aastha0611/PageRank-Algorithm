@@ -54,7 +54,7 @@ public void calculate(double n)
         System.out.println("Enter the Number of WebPages \n");
         nodes = in.nextInt();
         PageRankAlgo p = new PageRankAlgo();
-        System.out.println("Enter the Adjacency Matrix with 1->PATH & 0->NO PATH Between two WebPages: \n");
+        System.out.println("Enter the Adjacency Matrix of 0's & 1's ( 1 means there's PATH & 0 means there's NO PATH between two WebPages) \n");
         for(i=1;i<=nodes;i++)
           for(j=1;j<=nodes;j++)
           {
