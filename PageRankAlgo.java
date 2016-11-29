@@ -42,7 +42,7 @@ public void calculate(double n)
   
   System.out.printf("\n After "+u+"th Step \n"); 
      for(i=1;i<=n;i++) 
-      System.out.printf(" Page Rank of "+i+" is :\t"+this.PageRank[i]+"\n"); 
+      System.out.printf(" Page Rank of "+i+" is :\t"+this.PageRankAlgo[i]+"\n"); 
   
      u=u+1;
     } 
